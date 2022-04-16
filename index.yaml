@@ -1,0 +1,41 @@
+apiVersion: v1
+entries:
+  mlflow:
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/community-charts/helm-charts
+        - name: Upstream Project
+          url: https://github.com/burakince/mlflow
+    apiVersion: v2
+    appVersion: 1.24.0
+    created: "2022-04-16T09:39:48.301329762Z"
+    description: A Helm chart for Mlflow open source platform for the machine learning
+      lifecycle
+    digest: 9188babf24585ce68fd91ef97480b921e3942303459bc6fe3e8a25915b49043c
+    icon: https://raw.githubusercontent.com/mlflow/mlflow/master/assets/logo.svg
+    keywords:
+    - docker
+    - machine-learning
+    - ai
+    - ml
+    - model-management
+    - mlflow
+    - mlflow-tracking-server
+    - mlflow-docker
+    - mlflow-tracking
+    - mlflow-kube
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: burak.ince@linux.org.tr
+      name: burak ince
+    name: mlflow
+    sources:
+    - https://github.com/community-charts/helm-charts
+    - https://github.com/burakince/mlflow
+    - https://github.com/mlflow/mlflow
+    type: application
+    urls:
+    - https://github.com/community-charts/helm-charts/releases/download/mlflow-0.0.1/mlflow-0.0.1.tgz
+    version: 0.0.1
+generated: "2022-04-16T09:39:48.301353464Z"
