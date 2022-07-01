@@ -28,6 +28,63 @@ entries:
           url: https://raw.githubusercontent.com/drone/brand/master/screenshots/screenshot_build_failure.png
     apiVersion: v2
     appVersion: 2.12.1
+    created: "2022-07-01T09:45:11.70309418Z"
+    description: A Helm chart for Drone Server and Drone Kubernetes Runner
+    digest: 6298e57b72100554e87232ae75181aaea6a5c8d379fa41ec0aed45c06f6a58c8
+    home: https://www.drone.io
+    icon: https://raw.githubusercontent.com/drone/brand/master/logos/png/dark/drone-logo-png-dark-128.png
+    keywords:
+    - kubernetes
+    - drone
+    - drone.io
+    - droneci
+    - drone-ci
+    - CI
+    - CD
+    - continuous-delivery
+    - continuous-deployment
+    - continuous-integration
+    - code-pipeline
+    kubeVersion: '>=1.13.0-0'
+    maintainers:
+    - email: burak.ince@linux.org.tr
+      name: burakince
+      url: https://www.burakince.net
+    name: drone
+    sources:
+    - https://github.com/community-charts/helm-charts
+    - https://github.com/drone
+    type: application
+    urls:
+    - https://github.com/community-charts/helm-charts/releases/download/drone-0.0.7/drone-0.0.7.tgz
+    version: 0.0.7
+  - annotations:
+      artifacthub.io/changes: |
+        - Change maintainer name to GitHub username
+      artifacthub.io/containsSecurityUpdates: "false"
+      artifacthub.io/images: |
+        - name: drone
+          image: drone/drone:2.12.1
+      artifacthub.io/license: MIT
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/community-charts/helm-charts
+      artifacthub.io/maintainers: |
+        - name: burakince
+          email: burak.ince@linux.org.tr
+      artifacthub.io/operator: "false"
+      artifacthub.io/prerelease: "false"
+      artifacthub.io/screenshots: |
+        - title: Build List
+          url: https://raw.githubusercontent.com/drone/brand/master/screenshots/screenshot_build_list.png
+        - title: Build Running
+          url: https://raw.githubusercontent.com/drone/brand/master/screenshots/screenshot_build_running.png
+        - title: Build Success
+          url: https://raw.githubusercontent.com/drone/brand/master/screenshots/screenshot_build_success.png
+        - title: Build Failure
+          url: https://raw.githubusercontent.com/drone/brand/master/screenshots/screenshot_build_failure.png
+    apiVersion: v2
+    appVersion: 2.12.1
     created: "2022-06-30T10:11:54.298356573Z"
     description: A Helm chart for Drone Server and Drone Kubernetes Runner
     digest: 0259111c8728b4d3f91be5053c608e734c6370e36b817f8b2be6d30a830e473a
@@ -361,6 +418,49 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: v0.8.0
+    created: "2022-07-01T09:45:11.868234839Z"
+    dependencies:
+    - alias: cert-manager
+      condition: cert-manager.enabled
+      name: cert-manager
+      repository: https://charts.jetstack.io
+      version: '>=1.5.0'
+    description: Helm chart for KServe Serverless Inferencing on Kubernetes
+    digest: bd06a4472f14101144ffd0a25d5c54b8f4b0d860ffbdf33a6baf1c576c216e4d
+    home: https://kserve.github.io/website/
+    icon: https://raw.githubusercontent.com/kserve/artwork/main/icon/color/k-serve-icon-color.png
+    keywords:
+    - kserve
+    - modelmesh
+    maintainers:
+    - email: burak.ince@linux.org.tr
+      name: burakince
+      url: https://www.burakince.net
+    name: kserve
+    sources:
+    - http://github.com/kserve/kserve
+    - https://github.com/community-charts/helm-charts
+    type: application
+    urls:
+    - https://github.com/community-charts/helm-charts/releases/download/kserve-1.0.1/kserve-1.0.1.tgz
+    version: 1.0.1
+  - annotations:
+      artifacthub.io/changes: |
+        - Add cert manager as a dependency
+      artifacthub.io/containsSecurityUpdates: "false"
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/community-charts/helm-charts
+        - name: Upstream Project
+          url: http://github.com/kserve/kserve
+      artifacthub.io/maintainers: |
+        - name: burakince
+          email: burak.ince@linux.org.tr
+      artifacthub.io/operator: "false"
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
+    appVersion: v0.8.0
     created: "2022-06-30T11:39:22.13250285Z"
     dependencies:
     - alias: cert-manager
@@ -462,6 +562,76 @@ entries:
     - https://github.com/community-charts/helm-charts/releases/download/kserve-0.0.1/kserve-0.0.1.tgz
     version: 0.0.1
   mlflow:
+  - annotations:
+      artifacthub.io/changes: |
+        - Update to AppVersion 1.27.0.1
+      artifacthub.io/containsSecurityUpdates: "false"
+      artifacthub.io/images: |
+        - name: mlflow
+          image: burakince/mlflow:1.27.0.1
+      artifacthub.io/license: MIT
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/community-charts/helm-charts
+        - name: Upstream Project
+          url: https://github.com/burakince/mlflow
+      artifacthub.io/maintainers: |
+        - name: burakince
+          email: burak.ince@linux.org.tr
+      artifacthub.io/operator: "false"
+      artifacthub.io/prerelease: "false"
+      artifacthub.io/screenshots: |
+        - title: Quickstart UI screenshot
+          url: https://raw.githubusercontent.com/mlflow/mlflow/master/docs/source/_static/images/quickstart-ui-screenshot.png
+        - title: OSS registry 1 register
+          url: https://raw.githubusercontent.com/mlflow/mlflow/master/docs/source/_static/images/oss_registry_1_register.png
+        - title: OSS Registry 2 dialog
+          url: https://raw.githubusercontent.com/mlflow/mlflow/master/docs/source/_static/images/oss_registry_2_dialog.png
+        - title: OSS Registry 3 overview
+          url: https://raw.githubusercontent.com/mlflow/mlflow/master/docs/source/_static/images/oss_registry_3_overview.png
+        - title: OSS Registry 3b version
+          url: https://raw.githubusercontent.com/mlflow/mlflow/master/docs/source/_static/images/oss_registry_3b_version.png
+        - title: OSS Registry 3c version
+          url: https://raw.githubusercontent.com/mlflow/mlflow/master/docs/source/_static/images/oss_registry_3c_version.png
+        - title: OSS Registry 4 version
+          url: https://raw.githubusercontent.com/mlflow/mlflow/master/docs/source/_static/images/oss_registry_4_version.png
+        - title: OSS Registry 5 transition
+          url: https://raw.githubusercontent.com/mlflow/mlflow/master/docs/source/_static/images/oss_registry_5_transition.png
+        - title: Experiment compare
+          url: https://raw.githubusercontent.com/mlflow/mlflow/master/docs/source/_static/images/tutorial-compare.png
+    apiVersion: v2
+    appVersion: 1.27.0.1
+    created: "2022-07-01T09:45:11.99928208Z"
+    description: A Helm chart for Mlflow open source platform for the machine learning
+      lifecycle
+    digest: 86d2a1a8e543604abb8d39197385ddcd4d6b380b95684eff99cf44aa63f07d97
+    home: https://mlflow.org
+    icon: https://raw.githubusercontent.com/mlflow/mlflow/master/assets/logo.svg
+    keywords:
+    - docker
+    - machine-learning
+    - ai
+    - ml
+    - model-management
+    - mlflow
+    - mlflow-tracking-server
+    - mlflow-docker
+    - mlflow-tracking
+    - mlflow-kube
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: burak.ince@linux.org.tr
+      name: burakince
+      url: https://www.burakince.net
+    name: mlflow
+    sources:
+    - https://github.com/community-charts/helm-charts
+    - https://github.com/burakince/mlflow
+    - https://github.com/mlflow/mlflow
+    type: application
+    urls:
+    - https://github.com/community-charts/helm-charts/releases/download/mlflow-0.1.57/mlflow-0.1.57.tgz
+    version: 0.1.57
   - annotations:
       artifacthub.io/changes: |
         - Change maintainer name to GitHub username
@@ -4465,4 +4635,4 @@ entries:
     urls:
     - https://github.com/community-charts/helm-charts/releases/download/mlflow-0.0.1/mlflow-0.0.1.tgz
     version: 0.0.1
-generated: "2022-06-30T11:39:22.132878548Z"
+generated: "2022-07-01T09:45:12.000725089Z"
