@@ -28,6 +28,63 @@ entries:
           url: https://raw.githubusercontent.com/drone/brand/master/screenshots/screenshot_build_failure.png
     apiVersion: v2
     appVersion: 2.12.1
+    created: "2022-07-03T22:59:58.039510178Z"
+    description: A Helm chart for Drone Server and Drone Kubernetes Runner
+    digest: c0eaa11e4bf86456ca19d1ae1a831ff60e97c9b6f55d49ab774201318e5ff681
+    home: https://www.drone.io
+    icon: https://raw.githubusercontent.com/drone/brand/master/logos/png/dark/drone-logo-png-dark-128.png
+    keywords:
+    - kubernetes
+    - drone
+    - drone.io
+    - droneci
+    - drone-ci
+    - CI
+    - CD
+    - continuous-delivery
+    - continuous-deployment
+    - continuous-integration
+    - code-pipeline
+    kubeVersion: '>=1.13.0-0'
+    maintainers:
+    - email: burak.ince@linux.org.tr
+      name: burakince
+      url: https://www.burakince.net
+    name: drone
+    sources:
+    - https://github.com/community-charts/helm-charts
+    - https://github.com/drone
+    type: application
+    urls:
+    - https://github.com/community-charts/helm-charts/releases/download/drone-0.0.9/drone-0.0.9.tgz
+    version: 0.0.9
+  - annotations:
+      artifacthub.io/changes: |
+        - Change maintainer name to GitHub username
+      artifacthub.io/containsSecurityUpdates: "false"
+      artifacthub.io/images: |
+        - name: drone
+          image: drone/drone:2.12.1
+      artifacthub.io/license: MIT
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/community-charts/helm-charts
+      artifacthub.io/maintainers: |
+        - name: burakince
+          email: burak.ince@linux.org.tr
+      artifacthub.io/operator: "false"
+      artifacthub.io/prerelease: "false"
+      artifacthub.io/screenshots: |
+        - title: Build List
+          url: https://raw.githubusercontent.com/drone/brand/master/screenshots/screenshot_build_list.png
+        - title: Build Running
+          url: https://raw.githubusercontent.com/drone/brand/master/screenshots/screenshot_build_running.png
+        - title: Build Success
+          url: https://raw.githubusercontent.com/drone/brand/master/screenshots/screenshot_build_success.png
+        - title: Build Failure
+          url: https://raw.githubusercontent.com/drone/brand/master/screenshots/screenshot_build_failure.png
+    apiVersion: v2
+    appVersion: 2.12.1
     created: "2022-07-03T21:36:14.454968999Z"
     description: A Helm chart for Drone Server and Drone Kubernetes Runner
     digest: 192ea803489844491303707206edfbc2b2428f3c652de39afafb416c84f2ef54
@@ -4972,4 +5029,4 @@ entries:
     urls:
     - https://github.com/community-charts/helm-charts/releases/download/mlflow-0.0.1/mlflow-0.0.1.tgz
     version: 0.0.1
-generated: "2022-07-03T21:36:14.455964006Z"
+generated: "2022-07-03T22:59:58.040301885Z"
