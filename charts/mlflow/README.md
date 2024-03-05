@@ -9,7 +9,7 @@ A Helm chart for Mlflow open source platform for the machine learning lifecycle
 ## Get Helm Repository Info
 
 ```console
-helm repo add community-charts https://community-charts.github.io/helm-charts
+helm repo add fhswf https://fhswf.github.io/helm-charts
 helm repo update
 ```
 
@@ -18,14 +18,14 @@ _See [`helm repo`](https://helm.sh/docs/helm/helm_repo/) for command documentati
 ## Installing the Chart
 
 ```console
-helm install [RELEASE_NAME] community-charts/mlflow
+helm install [RELEASE_NAME] fhswf/mlflow
 ```
 
 _See [configuration](#configuration) below._
 
 _See [helm install](https://helm.sh/docs/helm/helm_install/) for command documentation._
 
-> **Tip**: Search all available chart versions using `helm search repo community-charts -l`. Please don't forget to run `helm repo update` before the command.
+> **Tip**: Search all available chart versions using `helm search repo fhswf -l`. Please don't forget to run `helm repo update` before the command.
 
 ## Supported Databases
 
@@ -112,7 +112,7 @@ You can use 2 different way to connect your S3 backend.
 ## S3 (Minio) and PostgreSQL DB Configuration on Helm Upgrade Command Example
 
 ```console
-helm upgrade --install mlflow community-charts/mlflow \
+helm upgrade --install mlflow fhswf/mlflow \
   --set backendStore.databaseMigration=true \
   --set backendStore.postgres.enabled=true \
   --set backendStore.postgres.host=postgres-service \
@@ -131,7 +131,7 @@ helm upgrade --install mlflow community-charts/mlflow \
 ## S3 (Minio) and MySQL DB Configuration on Helm Upgrade Command Example
 
 ```console
-helm upgrade --install mlflow community-charts/mlflow \
+helm upgrade --install mlflow fhswf/mlflow \
   --set backendStore.databaseMigration=true \
   --set backendStore.mysql.enabled=true \
   --set backendStore.mysql.host=mysql-service \
@@ -233,7 +233,7 @@ _See [helm uninstall](https://helm.sh/docs/helm/helm_uninstall/) for command doc
 ## Upgrading Chart
 
 ```console
-helm upgrade [RELEASE_NAME] community-charts/mlflow
+helm upgrade [RELEASE_NAME] fhswf/mlflow
 ```
 
 ## Values
@@ -324,7 +324,7 @@ helm upgrade [RELEASE_NAME] community-charts/mlflow
 
 ## Source Code
 
-* <https://github.com/community-charts/helm-charts>
+* <https://github.com/fhswf/helm-charts>
 * <https://github.com/burakince/mlflow>
 * <https://github.com/mlflow/mlflow>
 
