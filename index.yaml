@@ -943,6 +943,76 @@ entries:
           url: https://raw.githubusercontent.com/mlflow/mlflow/master/docs/source/_static/images/tutorial-compare.png
     apiVersion: v2
     appVersion: 2.11.0
+    created: "2024-03-05T09:54:22.058221446Z"
+    description: A Helm chart for Mlflow open source platform for the machine learning
+      lifecycle
+    digest: aea78550322042990f0f6bf3b03704db8a4bc37760878c3f7ff4123f5bcc4aa2
+    home: https://mlflow.org
+    icon: https://raw.githubusercontent.com/mlflow/mlflow/master/assets/logo.svg
+    keywords:
+    - docker
+    - machine-learning
+    - ai
+    - ml
+    - model-management
+    - mlflow
+    - mlflow-tracking-server
+    - mlflow-docker
+    - mlflow-tracking
+    - mlflow-kube
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: burak.ince@linux.org.tr
+      name: burakince
+      url: https://www.burakince.net
+    name: mlflow
+    sources:
+    - https://github.com/community-charts/helm-charts
+    - https://github.com/burakince/mlflow
+    - https://github.com/mlflow/mlflow
+    type: application
+    urls:
+    - https://github.com/fhswf/helm-charts/releases/download/mlflow-0.8.1/mlflow-0.8.1.tgz
+    version: 0.8.1
+  - annotations:
+      artifacthub.io/changes: |
+        - Update Mlflow image version to 2.11.0
+      artifacthub.io/containsSecurityUpdates: "false"
+      artifacthub.io/images: |
+        - name: mlflow
+          image: ghcr.io/mlflow/mlflow:v2.11.0
+      artifacthub.io/license: MIT
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/community-charts/helm-charts
+        - name: Upstream Project
+          url: https://github.com/burakince/mlflow
+      artifacthub.io/maintainers: |
+        - name: burakince
+          email: burak.ince@linux.org.tr
+      artifacthub.io/operator: "false"
+      artifacthub.io/prerelease: "false"
+      artifacthub.io/screenshots: |
+        - title: Quickstart UI screenshot
+          url: https://raw.githubusercontent.com/mlflow/mlflow/master/docs/source/_static/images/quickstart-ui-screenshot.png
+        - title: OSS registry 1 register
+          url: https://raw.githubusercontent.com/mlflow/mlflow/master/docs/source/_static/images/oss_registry_1_register.png
+        - title: OSS Registry 2 dialog
+          url: https://raw.githubusercontent.com/mlflow/mlflow/master/docs/source/_static/images/oss_registry_2_dialog.png
+        - title: OSS Registry 3 overview
+          url: https://raw.githubusercontent.com/mlflow/mlflow/master/docs/source/_static/images/oss_registry_3_overview.png
+        - title: OSS Registry 3b version
+          url: https://raw.githubusercontent.com/mlflow/mlflow/master/docs/source/_static/images/oss_registry_3b_version.png
+        - title: OSS Registry 3c version
+          url: https://raw.githubusercontent.com/mlflow/mlflow/master/docs/source/_static/images/oss_registry_3c_version.png
+        - title: OSS Registry 4 version
+          url: https://raw.githubusercontent.com/mlflow/mlflow/master/docs/source/_static/images/oss_registry_4_version.png
+        - title: OSS Registry 5 transition
+          url: https://raw.githubusercontent.com/mlflow/mlflow/master/docs/source/_static/images/oss_registry_5_transition.png
+        - title: Experiment compare
+          url: https://raw.githubusercontent.com/mlflow/mlflow/master/docs/source/_static/images/tutorial-compare.png
+    apiVersion: v2
+    appVersion: 2.11.0
     created: "2024-03-05T09:40:33.598554727Z"
     description: A Helm chart for Mlflow open source platform for the machine learning
       lifecycle
@@ -10017,4 +10087,4 @@ entries:
     urls:
     - https://github.com/community-charts/helm-charts/releases/download/mlflow-0.0.1/mlflow-0.0.1.tgz
     version: 0.0.1
-generated: "2024-03-05T09:40:33.599230553Z"
+generated: "2024-03-05T09:54:22.058674789Z"
