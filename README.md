@@ -1,9 +1,9 @@
 # Community Kubernetes Helm Charts
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-![MIT License](https://img.shields.io/github/license/community-charts/helm-charts) ![Release Charts](https://github.com/community-charts/helm-charts/workflows/Release%20Charts/badge.svg?branch=main) [![Releases downloads](https://img.shields.io/github/downloads/community-charts/helm-charts/total.svg)](https://github.com/community-charts/helm-charts/releases) [![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/community-charts)](https://artifacthub.io/packages/search?repo=community-charts)
+![MIT License](https://img.shields.io/github/license/fhswf/helm-charts) ![Release Charts](https://github.com/fhswf/helm-charts/workflows/Release%20Charts/badge.svg?branch=main) [![Releases downloads](https://img.shields.io/github/downloads/fhswf/helm-charts/total.svg)](https://github.com/fhswf/helm-charts/releases) [![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/fhswf)](https://artifacthub.io/packages/search?repo=fhswf)
 
 ## Usage
 
@@ -13,7 +13,7 @@ Please refer to Helm's [documentation](https://helm.sh/docs/) to get started.
 Once Helm is set up properly, add the repo as follows:
 
 ```console
-helm repo add community-charts https://community-charts.github.io/helm-charts
+helm repo add community-charts https://fhswf.github.io/helm-charts
 helm repo update
 ```
 
@@ -34,9 +34,10 @@ Community Charts are made with <3 thanks to these wonderful people
 <table>
   <tr>
     <td align="center"><a href="https://github.com/xadrianzetx"><img src="https://avatars.githubusercontent.com/u/37713008?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Adrian Zuber</b></sub></a><br /><a href="https://github.com/community-charts/helm-charts/commits?author=xadrianzetx" title="Code">💻</a> <a href="https://github.com/community-charts/helm-charts/commits?author=xadrianzetx" title="Documentation">📖</a> <a href="https://github.com/community-charts/helm-charts/issues?q=author%3Axadrianzetx" title="Bug reports">🐛</a> <a href="#ideas-xadrianzetx" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/community-charts/helm-charts/commits?author=xadrianzetx" title="Tests">⚠️</a></td>
-    <td align="center"><a href="https://github.com/ryshoooo"><img src="https://avatars.githubusercontent.com/u/12965813?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Richard Nemeth</b></sub></a><br /><a href="https://github.com/community-charts/helm-charts/commits?author=ryshoooo" title="Code">💻</a> <a href="https://github.com/community-charts/helm-charts/commits?author=ryshoooo" title="Documentation">📖</a> <a href="https://github.com/community-charts/helm-charts/issues?q=author%3Aryshoooo" title="Bug reports">🐛</a> <a href="#ideas-ryshoooo" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/community-charts/helm-charts/commits?author=ryshoooo" title="Tests">⚠️</a></td>
-    <td align="center"><a href="https://github.com/subramaniam20jan"><img src="https://avatars.githubusercontent.com/u/6160977?v=4?s=100" width="100px;" alt=""/><br /><sub><b>subramaniam20jan</b></sub></a><br /><a href="https://github.com/community-charts/helm-charts/commits?author=subramaniam20jan" title="Code">💻</a> <a href="https://github.com/community-charts/helm-charts/commits?author=subramaniam20jan" title="Documentation">📖</a> <a href="https://github.com/community-charts/helm-charts/issues?q=author%3Asubramaniam20jan" title="Bug reports">🐛</a> <a href="#ideas-subramaniam20jan" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/community-charts/helm-charts/commits?author=subramaniam20jan" title="Tests">⚠️</a></td>
     <td align="center"><a href="https://www.burakince.net"><img src="https://avatars.githubusercontent.com/u/858202?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Burak Ince</b></sub></a><br /><a href="https://github.com/community-charts/helm-charts/commits?author=burakince" title="Code">💻</a> <a href="https://github.com/community-charts/helm-charts/commits?author=burakince" title="Documentation">📖</a> <a href="https://github.com/community-charts/helm-charts/issues?q=author%3Aburakince" title="Bug reports">🐛</a> <a href="https://github.com/community-charts/helm-charts/pulls?q=is%3Apr+reviewed-by%3Aburakince" title="Reviewed Pull Requests">👀</a> <a href="#ideas-burakince" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/community-charts/helm-charts/commits?author=burakince" title="Tests">⚠️</a></td>
+    <td align="center"><a href="https://github.com/ryshoooo"><img src="https://avatars.githubusercontent.com/u/12965813?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Richard Nemeth</b></sub></a><br /><a href="https://github.com/community-charts/helm-charts/commits?author=ryshoooo" title="Code">💻</a> <a href="https://github.com/community-charts/helm-charts/commits?author=ryshoooo" title="Documentation">📖</a> <a href="https://github.com/community-charts/helm-charts/issues?q=author%3Aryshoooo" title="Bug reports">🐛</a> <a href="#ideas-ryshoooo" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/community-charts/helm-charts/commits?author=ryshoooo" title="Tests">⚠️</a></td>
+    <td align="center"><a href="https://github.com/faceless7171"><img src="https://avatars.githubusercontent.com/u/43067693?v=4?s=100" width="100px;" alt=""/><br /><sub><b>faceless7171</b></sub></a><br /><a href="https://github.com/community-charts/helm-charts/issues?q=author%3Afaceless7171" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/subramaniam20jan"><img src="https://avatars.githubusercontent.com/u/6160977?v=4?s=100" width="100px;" alt=""/><br /><sub><b>subramaniam20jan</b></sub></a><br /><a href="https://github.com/community-charts/helm-charts/commits?author=subramaniam20jan" title="Code">💻</a> <a href="https://github.com/community-charts/helm-charts/commits?author=subramaniam20jan" title="Documentation">📖</a> <a href="https://github.com/community-charts/helm-charts/issues?q=author%3Asubramaniam20jan" title="Bug reports">🐛</a> <a href="#ideas-subramaniam20jan" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/community-charts/helm-charts/commits?author=subramaniam20jan" title="Tests">⚠️</a></td>
   </tr>
 </table>
 
@@ -48,8 +49,8 @@ Community Charts are made with <3 thanks to these wonderful people
 ## License
 
 <!-- Keep full URL links to repo files because this README syncs from main to gh-pages.  -->
-[MIT License](https://github.com/community-charts/helm-charts/blob/main/LICENSE).
+[MIT License](https://github.com/fhswf/helm-charts/blob/main/LICENSE).
 
 ## Helm charts build status
 
-![Release Charts](https://github.com/community-charts/helm-charts/workflows/Release%20Charts/badge.svg?branch=main)
+![Release Charts](https://github.com/fhswf/helm-charts/workflows/Release%20Charts/badge.svg?branch=main)
