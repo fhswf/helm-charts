@@ -13,7 +13,7 @@ Please refer to Helm's [documentation](https://helm.sh/docs/) to get started.
 Once Helm is set up properly, add the repo as follows:
 
 ```console
-helm repo add community-charts https://fhswf.github.io/helm-charts
+helm repo add fhswf https://fhswf.github.io/helm-charts
 helm repo update
 ```
 
