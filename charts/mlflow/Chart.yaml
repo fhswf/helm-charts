@@ -61,7 +61,7 @@ annotations:
     - Update Mlflow image version to 2.11.0
   artifacthub.io/images: |
     - name: mlflow
-      image: ghcr.io/mlflow/mlflow:2.11.0
+      image: ghcr.io/mlflow/mlflow:v2.11.0
   artifacthub.io/license: MIT
   artifacthub.io/maintainers: |
     - name: burakince
